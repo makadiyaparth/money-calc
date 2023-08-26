@@ -16,10 +16,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1em;
 }
 
 h2 {
   font-size: 2rem;
+}
+
+input {
+  font-size: 1.5rem;
+  padding: 0.25em 0.75em;
+  text-align: center;
+  width: 100%;
+
+  background-color: black;
+  color: azure;
+
+  border: none;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -31,7 +44,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 input[type="number"] {
-  -moz-appearance: textfield; /*This is for firefox*/
+  -moz-appearance: textfield;
 }
 
 .denominations {
@@ -48,16 +61,7 @@ input[type="number"] {
 }
 
 .denomination input {
-  font-size: 1.5rem;
-  padding: 0.25em 0.75em;
-  text-align: center;
   width: 50px;
-
-  background-color: black;
-  color: azure;
-
-  border: none;
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.25); */
 }
 
 .denomination-text {
